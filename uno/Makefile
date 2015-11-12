@@ -1,4 +1,4 @@
-# Hey Emacs, this is a -*- makefile -*-
+#
 #
 # On command line:
 #
@@ -71,7 +71,7 @@ CSTANDARD = -std=gnu99
 
 # Place -D or -U options here
 # F_CPU - depends on Fuses and any external crystal
-CDEFS = -DF_CPU=16000000L  -DUART_BAUD_RATE=57600
+CDEFS = -DF_CPU=16000000L  -DUART_BAUD_RATE=115200
 
 # Place -I options here
 CINCS =

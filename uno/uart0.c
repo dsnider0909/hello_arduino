@@ -54,6 +54,10 @@ void uart0_init (void)
     UCSR0A = 1<<U2X0;  
     UBRR0L = 8; 
     UBRR0H = 0x00; 
+#elif (F_CPU == 16000000L) && (UART_BAUD_RATE == 115200)
+    UCSR0A = 1<<U2X0;  
+    UBRR0L = 16; 
+    UBRR0H = 0x00; 
 #else
 #error("F_CPU and UART_BAUD_RATE must be defined");
 #endif
