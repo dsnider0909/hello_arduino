@@ -2,6 +2,8 @@
 Getting a “Hello World” with the GNU GCC toolchain, for times when the Arduino libraries get in the way.  
 
 ## Uno
+![alt text](uno/doc/uno_board.gif "Arduino Uno")
+
 Full instructions: [hello_uno.pdf](uno/doc/hello_uno.pdf)
 
 ```
@@ -12,6 +14,9 @@ make
 ```
 
 ## Mega
+
+![alt text](mega/doc/mega_board.gif "Arduino Mega")
+
 Full instructions: [hello_mega.pdf](mega/doc/hello_mega.pdf)
 
 
